@@ -32,7 +32,7 @@ namespace GitHubEventGetter
             {
                 BaseAddress = new Uri("https://api.github.com")
             };
-            cli.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("token", "b7bb881dac8549fcedd30afbcbd5cd115fc12709");
+            cli.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("token", "YOUR_TOKEN_HERE");
             cli.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
             cli.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("EventGetter", "0.1"));
 
